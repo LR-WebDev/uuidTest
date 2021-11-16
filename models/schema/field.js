@@ -11,6 +11,7 @@ const uuidSchema  = new mongoose.Schema({
     },
     sslready: {
         type: Boolean,
+        default : false
 
     },
     
